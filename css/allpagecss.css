@@ -9,7 +9,6 @@
 }
 .logo{
     float:left;
-  
 }
 
 .logo a{
@@ -38,6 +37,41 @@
     text-align: center;
 }
 
+.staff {
+    display: flex;
+    flex-direction:column-reverse;
+    margin: 30px;
+    text-align: center;
+}
+
+.roster{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.staffinfotable{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 
 .footer{
     height: 140px;
@@ -45,7 +79,6 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-   
 }
 
 .footerleft{
